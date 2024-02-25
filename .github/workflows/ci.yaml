@@ -30,3 +30,4 @@ jobs:
           repository: mmore500/${{ github.event.repository.name }}
           registry: ghcr.io
           add_git_labels: true
+          tag_with_ref: true
